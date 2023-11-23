@@ -51,6 +51,13 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      container: {
+        center: true,
+        padding: '1rem', // You can adjust the padding as needed
+      },
+      fontFamily: {
+        sans: ['DM Sans','Roboto', 'sans-serif'],
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
