@@ -3,7 +3,7 @@ import AuthenticationPage from '@/components/authentication/AuthenticationPage'
 
 const page = () => {
     return (
-        <div className='h-screen'>
+        <div className='h-screen '>
             <AuthenticationPage />
         </div>
     )
